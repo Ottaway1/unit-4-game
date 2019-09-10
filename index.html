@@ -5,24 +5,60 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/style.css" type="text/css">
     <title>unit-4-game</title>
 
 </head>
 
 <body>
-    <!-- H1/crystals collector -->
 
+
+    <!-- H1/crystals collector -->
     <!--p/ you will be given a random number at begining of game -->
     <!--p/ there are 4 crystals below. by clicking on a crystal you will add a specific amount of points to your total score. -->
     <!--p/ you will win the game by matching your total score to the random number, you lose the game if your total score goes above the random number. -->
     <!--p/ the value of each crystal is hidden from you till you click on it. -->
     <!--p/ each time the game starts, the game will change the values of each crystal. -->
-
+    <div class="float-left">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Crystals Collector</h5>
+                <h6 class="card-subtitle mb-2 text-muted">You will be given a random number at the begining of the game.
+                </h6>
+                <p class="card-text">There are 4 crystals in the center of the screen and by clicking on a crystal you
+                    will add a specific amount of points to your total score.</p>
+                <p class="card-text">You will win the game by matching your total score to the random number, you lose
+                    the game if your total score goes above the random number.</p>
+                <p class="card-text">The value of each crystal is hidden from you till you click on it.</p>
+                <p class="card-text">Each time the game starts, the game will change the values of each crystal.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div><br>
     <!-- random number display      &&    wins and losses counter -->
-
+    <div class="float-right">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <div id="random">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                    </div>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div><br>
     <!-- four crystal buttons -->
+    <div class="mx-auto" style="width: 200px;">
+        <img src="assets/images/diamond.png" alt="diamond" class="img-thumbnail">
+        <img src="assets/images/ruby.png" alt="ruby" class="img-thumbnail">
+        <img src="assets/images/topaz.png" alt="topaz" class="img-thumbnail">
+        <img src="assets/images/emerald.png" alt="emerald" class="img-thumbnail">
 
+    </div>
     <!-- p/total score -->
 
     <!-- total score display -->
